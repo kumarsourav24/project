@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Ideas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Malla Reddy Engineering College & Management Sciences</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Mrem</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <label for="department">Select your Department:</label>
+            <select id="department">
+                <option value="CSE">CSE</option>
+                <option value="CSM">CSM</option>
+                <option value="CIVIL">CIVIL</option>
+                <option value="MECHANICAL">MECHANICAL</option>
+                <option value="IOT">IOT</option>
+                <option value="CYBER_SECURITY">CYBER SECURITY</option>
+                <option value="DATA_SCIENCE">DATA SCIENCE</option>
+                <option value="IT">IT</option>
+            </select>
+            <button onclick="showProjects()">Submit</button>
+        </section>
+
+        <section id="project-ideas">
+            <h2>Project Ideas</h2>
+            <ul id="project-list"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>All right reserved with Malla Reddy Engineering College & Management Sciences</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
